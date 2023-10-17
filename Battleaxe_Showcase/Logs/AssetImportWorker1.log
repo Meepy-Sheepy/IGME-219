@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32648 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32509 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/jdigu/Documents/GitHub/IGME-219/Battleaxe_Showcase
+D:/Profiles/jad3772/IGME 219/IGME-219/Battleaxe_Showcase
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64049
-Successfully changed project path to: C:/Users/jdigu/Documents/GitHub/IGME-219/Battleaxe_Showcase
-C:/Users/jdigu/Documents/GitHub/IGME-219/Battleaxe_Showcase
+50427
+Successfully changed project path to: D:/Profiles/jad3772/IGME 219/IGME-219/Battleaxe_Showcase
+D:/Profiles/jad3772/IGME 219/IGME-219/Battleaxe_Showcase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,66 +49,72 @@ C:/Users/jdigu/Documents/GitHub/IGME-219/Battleaxe_Showcase
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14592] Host "[IP] 129.21.110.158 [Port] 0 [Flags] 2 [Guid] 349856536 [EditorId] 349856536 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NGEPM3P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5100] Host "[IP] 129.21.197.8 [Port] 0 [Flags] 2 [Guid] 3089917892 [EditorId] 3089917892 [Version] 1048832 [Id] WindowsEditor(7,MSS2175-02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14592] Host "[IP] 129.21.110.158 [Port] 0 [Flags] 2 [Guid] 349856536 [EditorId] 349856536 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NGEPM3P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5100] Host "[IP] 129.21.197.8 [Port] 0 [Flags] 2 [Guid] 3089917892 [EditorId] 3089917892 [Version] 1048832 [Id] WindowsEditor(7,MSS2175-02) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jdigu/Documents/GitHub/IGME-219/Battleaxe_Showcase/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Profiles/jad3772/IGME 219/IGME-219/Battleaxe_Showcase/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     8038 MB
-    Driver:   31.0.15.3699
+    VRAM:     12129 MB
+    Driver:   31.0.15.3640
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013685 seconds.
-- Loaded All Assemblies, in  0.316 seconds
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008141 seconds.
+- Loaded All Assemblies, in  0.336 seconds
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.238 seconds
-Domain Reload Profiling: 552ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.341 seconds
+Domain Reload Profiling: 677ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (87ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (130ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (239ms)
+	FinalizeReload (342ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (188ms)
+		SetupLoadedEditorAssemblies (282ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (114ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (129ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,54 +122,56 @@ Domain Reload Profiling: 552ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jdigu\Documents\GitHub\IGME-219\Battleaxe_Showcase\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jdigu\Documents\GitHub\IGME-219\Battleaxe_Showcase\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.630 seconds
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Profiles\jad3772\IGME 219\IGME-219\Battleaxe_Showcase\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Profiles\jad3772\IGME 219\IGME-219\Battleaxe_Showcase\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.663 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.434 seconds
-Domain Reload Profiling: 1061ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.526 seconds
+Domain Reload Profiling: 1188ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (240ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (208ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (434ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (526ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (313ms)
+		SetupLoadedEditorAssemblies (359ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.2 KB). Loaded Objects now: 3530.
-Memory consumption went from 116.0 MB to 116.0 MB.
-Total: 2.683000 ms (FindLiveObjects: 0.186500 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.334600 ms  DeleteObjects: 0.084500 ms)
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.6 KB). Loaded Objects now: 3534.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 2.565100 ms (FindLiveObjects: 0.225200 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.183900 ms  DeleteObjects: 0.078400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,33 +187,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 107467.252712 seconds.
-  path: Assets/Materials/Textures/Battleaxe_Exported_Texture_Height.png
-  artifactKey: Guid(6300f832759d0864290fe691466d4d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Battleaxe_Exported_Texture_Height.png using Guid(6300f832759d0864290fe691466d4d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101cb78ea423d9fe218b20bfabd1084b') in 0.058328 seconds
+  Time since last request: 216.054170 seconds.
+  path: Assets/Materials/Textures/Battleaxe_Exported_Texture_Metallic.png
+  artifactKey: Guid(e9cf604f887677149a1480cdca87d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/Battleaxe_Exported_Texture_Metallic.png using Guid(e9cf604f887677149a1480cdca87d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d27d75c7d101124569aa33087d6edd') in 0.265655 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Materials/Textures/Battleaxe_Exported_Texture_Roughness.png
+  Time since last request: 1572.370204 seconds.
+  path: Assets/TerrainData_853aa9ba-2592-427f-a129-b60f115c0ff1.asset
+  artifactKey: Guid(2ae00e9330568604d83601292f3b96f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_853aa9ba-2592-427f-a129-b60f115c0ff1.asset using Guid(2ae00e9330568604d83601292f3b96f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b50d17d7493251fce019ad83fa990f') in 0.014908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 836.082207 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe1.mat
+  artifactKey: Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe1.mat using Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd914e0e98ac9abc658ca1354d6ebac') in 0.089174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 87.258072 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_AO.png
+  artifactKey: Guid(781994b4520141f43857fb0f1e51bd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_AO.png using Guid(781994b4520141f43857fb0f1e51bd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31c1da1a89f2672dcb70387a3ecd6a8') in 0.033009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 62.299409 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe1.mat
+  artifactKey: Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe1.mat using Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8890b651cc5e1df2c9666253bfec60c') in 0.043435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.116527 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_Metallic.png
+  artifactKey: Guid(e9cf604f887677149a1480cdca87d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_Metallic.png using Guid(e9cf604f887677149a1480cdca87d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cc9a4b96ded274d19850db1f7d60e3') in 0.015641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.315459 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe1.mat
+  artifactKey: Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe1.mat using Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c0f8da30bb446225b17bc5407060a7') in 0.044351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 18.778783 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_Metallic.png
+  artifactKey: Guid(e9cf604f887677149a1480cdca87d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_Metallic.png using Guid(e9cf604f887677149a1480cdca87d34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b500c95183f4cd0d5c66e494ac171e6') in 0.040655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.190756 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe1.mat
+  artifactKey: Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe1.mat using Guid(aed7fa3b25f08634ba8fdfd4a87c6823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d03b72677820c2fd2820b476fedc84c') in 0.042107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 127.921810 seconds.
+  path: Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_Roughness.png
   artifactKey: Guid(0bd7a442e1497124081067e0888524fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Battleaxe_Exported_Texture_Roughness.png using Guid(0bd7a442e1497124081067e0888524fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343811e26c4a6f25c24b99deaa2ed02e') in 0.016922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/Textures/Battleaxe_Exported_Texture_Normal.png
-  artifactKey: Guid(f821c6f97d6a86d4dbbd7a1f830f123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Battleaxe_Exported_Texture_Normal.png using Guid(f821c6f97d6a86d4dbbd7a1f830f123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5317879b6b311672b4df62c4d5248d77') in 0.016160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 198.885840 seconds.
-  path: Assets/Materials/Textures/Battleaxe_Exported_Texture_Normal.png
-  artifactKey: Guid(f821c6f97d6a86d4dbbd7a1f830f123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Textures/Battleaxe_Exported_Texture_Normal.png using Guid(f821c6f97d6a86d4dbbd7a1f830f123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3442bb550339aad72977f109cc32fb') in 0.042503 seconds
+Start importing Assets/Materials/BattleaxeTextures/Battleaxe_Exported_Texture_Roughness.png using Guid(0bd7a442e1497124081067e0888524fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9624acc33e0fc73e51916883edf5781a') in 0.040341 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
